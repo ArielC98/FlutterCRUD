@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "366868075744",
-    "project_id": "fluttercrud-db7e8",
-    "storage_bucket": "fluttercrud-db7e8.appspot.com"
+    "project_number": "286394508850",
+    "firebase_url": "https://examen-appsmoviles-default-rtdb.firebaseio.com",
+    "project_id": "examen-appsmoviles",
+    "storage_bucket": "examen-appsmoviles.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:366868075744:android:41d8d91ba366edb65f2c85",
+        "mobilesdk_app_id": "1:286394508850:android:ae4622fffa3812c43bbe2b",
         "android_client_info": {
           "package_name": "epn.edu.crud"
         }
       },
       "oauth_client": [
         {
-          "client_id": "366868075744-0e37bbhl7tk0scfa7hso77pd95d9s09u.apps.googleusercontent.com",
+          "client_id": "286394508850-5lip6kcva0i48hq47qhsmi96c2kleruf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCaJJXfTFdFsWFINOxQnWoQZriyZafsUCI"
+          "current_key": "AIzaSyA6zVpC0GCbn_nBpfTvyabUxsInfSmp13g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "366868075744-0e37bbhl7tk0scfa7hso77pd95d9s09u.apps.googleusercontent.com",
+              "client_id": "286394508850-5lip6kcva0i48hq47qhsmi96c2kleruf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

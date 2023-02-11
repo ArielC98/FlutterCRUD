@@ -44,39 +44,45 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCgHzDSsCatg1ECgQYoQAPITKSu_aTkoDQ',
-    appId: '1:366868075744:web:f9705d60b13bd4785f2c85',
-    messagingSenderId: '366868075744',
-    projectId: 'fluttercrud-db7e8',
-    authDomain: 'fluttercrud-db7e8.firebaseapp.com',
-    storageBucket: 'fluttercrud-db7e8.appspot.com',
+    apiKey: 'AIzaSyDfZ5pQYcL4krCPeMaxeVh6tv8LRLimLE4',
+    appId: '1:286394508850:web:3c80d96ab93c67233bbe2b',
+    messagingSenderId: '286394508850',
+    projectId: 'examen-appsmoviles',
+    authDomain: 'examen-appsmoviles.firebaseapp.com',
+    databaseURL: 'https://examen-appsmoviles-default-rtdb.firebaseio.com',
+    storageBucket: 'examen-appsmoviles.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCaJJXfTFdFsWFINOxQnWoQZriyZafsUCI',
-    appId: '1:366868075744:android:41d8d91ba366edb65f2c85',
-    messagingSenderId: '366868075744',
-    projectId: 'fluttercrud-db7e8',
-    storageBucket: 'fluttercrud-db7e8.appspot.com',
+    apiKey: 'AIzaSyA6zVpC0GCbn_nBpfTvyabUxsInfSmp13g',
+    appId: '1:286394508850:android:ae4622fffa3812c43bbe2b',
+    messagingSenderId: '286394508850',
+    projectId: 'examen-appsmoviles',
+    databaseURL: 'https://examen-appsmoviles-default-rtdb.firebaseio.com',
+    storageBucket: 'examen-appsmoviles.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBuzhM5abfATTrsqSchBub-_BLVF36vOZQ',
-    appId: '1:366868075744:ios:9a3def0f93bccef45f2c85',
-    messagingSenderId: '366868075744',
-    projectId: 'fluttercrud-db7e8',
-    storageBucket: 'fluttercrud-db7e8.appspot.com',
-    iosClientId: '366868075744-3682ovelm6c19cjr0bi8pbi6mvu7r2ri.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAkcY_xGDEWt0iZvAdK0BHmfDYXEeo0VwU',
+    appId: '1:286394508850:ios:f5443cc6cd3925773bbe2b',
+    messagingSenderId: '286394508850',
+    projectId: 'examen-appsmoviles',
+    databaseURL: 'https://examen-appsmoviles-default-rtdb.firebaseio.com',
+    storageBucket: 'examen-appsmoviles.appspot.com',
+    iosClientId:
+        '286394508850-uje7kt75hdap43q7ihfvddbu5ep6gulo.apps.googleusercontent.com',
     iosBundleId: 'epn.edu.crud',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBuzhM5abfATTrsqSchBub-_BLVF36vOZQ',
-    appId: '1:366868075744:ios:9a3def0f93bccef45f2c85',
-    messagingSenderId: '366868075744',
-    projectId: 'fluttercrud-db7e8',
-    storageBucket: 'fluttercrud-db7e8.appspot.com',
-    iosClientId: '366868075744-3682ovelm6c19cjr0bi8pbi6mvu7r2ri.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAkcY_xGDEWt0iZvAdK0BHmfDYXEeo0VwU',
+    appId: '1:286394508850:ios:f5443cc6cd3925773bbe2b',
+    messagingSenderId: '286394508850',
+    projectId: 'examen-appsmoviles',
+    databaseURL: 'https://examen-appsmoviles-default-rtdb.firebaseio.com',
+    storageBucket: 'examen-appsmoviles.appspot.com',
+    iosClientId:
+        '286394508850-uje7kt75hdap43q7ihfvddbu5ep6gulo.apps.googleusercontent.com',
     iosBundleId: 'epn.edu.crud',
   );
 }

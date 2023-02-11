@@ -4,8 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
-//Servicios
-import 'package:crud/services/firebase_service.dart';
+//Paginas
+import 'pages/home_page.dart';
+import 'package:crud/pages/create_name_page.dart';
+import 'package:crud/pages/update_name_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,42 +22,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(title: 'Flutter Demo', home: Home());
-  }
-}
-
-class Home extends StatefulWidget {
-  const Home({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  State<Home> createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Material App Bar"),
-      ),
-      body: FutureBuilder(
-          future: getUsers(),
-          builder: ((context, snapshot) {
-            if (snapshot.hasData) {
-              return ListView.builder(
-                itemCount: snapshot.data?.length,
-                itemBuilder: (context, index) {
-                  return Text((snapshot.data?[index]['name']));
-                },
-              );
-            } else {
-              return const Center(
-                child: CircularProgressIndicator(),
-              );
-            }
-          })),
+    return MaterialApp(
+      title: 'Flutter Demo',
+      initialRoute: '/',
+      routes: {
+        '/': ((context) => const Home()),
+        '/create': ((context) => const CreateNamePage()),
+        '/update': ((context) => const UpdateNamePage()),
+      },
     );
   }
 }
