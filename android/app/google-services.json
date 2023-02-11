@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "366868075744",
+    "project_id": "fluttercrud-db7e8",
+    "storage_bucket": "fluttercrud-db7e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366868075744:android:41d8d91ba366edb65f2c85",
+        "android_client_info": {
+          "package_name": "epn.edu.crud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366868075744-0e37bbhl7tk0scfa7hso77pd95d9s09u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaJJXfTFdFsWFINOxQnWoQZriyZafsUCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366868075744-0e37bbhl7tk0scfa7hso77pd95d9s09u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
