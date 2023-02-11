@@ -2,6 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 FirebaseFirestore database = FirebaseFirestore.instance;
 
+//Funcion que lee los datos y los almacena en una lista
+
 Future<List> getUsers() async {
   List users = [];
 
